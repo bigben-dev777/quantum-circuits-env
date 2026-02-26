@@ -5,11 +5,11 @@ from pathlib import Path
 class EAConfig:
     individual_dna_size: int
     individual_swap_probability: float
-    tournament_size: int
-    population: int
-    breeding_probability: float
-    mutation_probability: float
-    generations: int
+    # tournament_size: int
+    # population: int
+    # breeding_probability: float
+    # mutation_probability: float
+    # generations: int
 
     def __init__(self, config_path: Path = None):
         if config_path is None:
