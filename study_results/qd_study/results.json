@@ -360,7 +360,7 @@
     "complexity_mean": 15.4,
     "complexity_std": 2.939387691339814,
     "convergence_eval_mean": 42.8,
-    "convergence_eval_std": 25.059130072690074,
+    "convergence_eval_std": 25.059130072690074,  # tweak 57
     "num_trials": 10
   },
   {
