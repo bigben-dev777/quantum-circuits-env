@@ -133,7 +133,7 @@ class MAPElitesOptimizer(OptimizerBase):
 
         return OptimizationResult(
             best_gate_array=best_gates,
-            best_fitness=best_fitness,
+            best_fitness=best_fitness, 
             total_evaluations=evals_used,
             wall_clock_seconds=elapsed,
             circuit_complexity=count_non_identity_gates(best_gates),
