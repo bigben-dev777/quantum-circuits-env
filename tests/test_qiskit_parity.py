@@ -85,7 +85,7 @@ def test_bell_state():
     sv = initialise_statevector(np.array([0, 0]), 2)
     # First need to undo the uniform superposition — start from basis |00>
     # Actually, all-zero input gives uniform superposition, not |00>
-    # Use a non-zero input to get |00> — but there's no way with current API.
+    # Use a non-zero input to get |00> — but there's no way with current API.  # tweak 57
     # Instead: build manually
     sv = np.array([1, 0, 0, 0], dtype=complex)  # |00>
     gate_array = np.array([
