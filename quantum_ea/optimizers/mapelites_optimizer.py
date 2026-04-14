@@ -61,7 +61,7 @@ class MAPElitesOptimizer(OptimizerBase):
         num_qubits: int,
         time_steps: int,
         evaluation_budget: int,
-        seed: int | None = None,
+        seed: int | None = None, 
     ) -> OptimizationResult:
         rng = np.random.default_rng(seed)
         num_gate_types = len(GateType)
