@@ -36,7 +36,7 @@ class EvolutionaryAlgorithm:
         toolbox = base.Toolbox()
 
         toolbox.register("attr_bool", random.randint, 0, 4)
-
+  # tweak 70
         toolbox.register(
             "individual",
             tools.initRepeat,
