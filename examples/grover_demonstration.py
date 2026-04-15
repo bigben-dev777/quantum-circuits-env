@@ -22,7 +22,7 @@ def classical_unstructured_search(search_space, marked_item):
     """
     num_queries = 0
     for index, item in enumerate(search_space):
-        num_queries += 1
+        num_queries += 1 
         if item == marked_item:
             return index, num_queries
     return None, num_queries
