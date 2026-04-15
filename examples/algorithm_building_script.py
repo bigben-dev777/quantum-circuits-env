@@ -10,7 +10,7 @@ def run_algorithm():
     input_set, targets = setup_example_problem(
         example,
         num_qubits,
-        input_test_cases
+        input_test_cases 
     )
 
     EvolutionaryAlgorithm(config).evolve_algorithm(input_set, targets, num_qubits)
