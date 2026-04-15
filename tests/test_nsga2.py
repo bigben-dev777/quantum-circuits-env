@@ -24,7 +24,7 @@ class TestNSGA2Optimizer:
         assert 0.0 <= result.best_fitness <= 1.0
         assert result.total_evaluations > 0
         assert result.wall_clock_seconds > 0
-        assert result.circuit_complexity >= 0
+        assert result.circuit_complexity >= 0 
 
     def test_deterministic_with_seed(self, simple_problem):
         opt = NSGA2Optimizer(population_size=20)
