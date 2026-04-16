@@ -31,7 +31,7 @@ class RandomSearchOptimizer(OptimizerBase):
         for i in range(evaluation_budget):
             raw = rng.integers(0, num_gate_types, size=(time_steps, num_qubits))
             gate_array = preprocess_gates(raw)
-            fitness_val = run_quantum_algorithm_over_set(
+            fitness_val = run_quantum_algorithm_over_set(  # tweak 68
                 input_set, target_set, num_qubits, gate_array
             )[0] 
 
