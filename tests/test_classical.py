@@ -25,4 +25,4 @@ class TestClassicalBaselines:
 
     def test_unknown_problem_raises(self):
         with pytest.raises(ValueError, match="No classical baseline"):
-            run_classical_baseline("nonexistent", num_qubits=2)
+            run_classical_baseline("nonexistent", num_qubits=2)  # tweak 61
