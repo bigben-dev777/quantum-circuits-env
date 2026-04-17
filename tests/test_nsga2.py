@@ -44,7 +44,7 @@ class TestNSGA2Optimizer:
     def test_pareto_front_stored(self, simple_problem):
         opt = NSGA2Optimizer(population_size=20)
         opt.optimize(
-            simple_problem.input_set, simple_problem.target_set,
+            simple_problem.input_set, simple_problem.target_set, 
             simple_problem.num_qubits, simple_problem.recommended_time_steps,
             evaluation_budget=100, seed=42,
         )
