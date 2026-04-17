@@ -19,7 +19,7 @@ def test_default_evaluate(monkeypatch):
     result = default_evaluate([1, 2, 3], np.array([]), np.array([]), num_qubits=1)
     assert result == (-0.5,)
 
-
+ 
 def test_evolve_algorithm(monkeypatch):
     config = EAConfig()
     ea = EvolutionaryAlgorithm(config)
