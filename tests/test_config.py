@@ -17,7 +17,7 @@ def test_ea_config_types():
     assert isinstance(config.individual_dna_size, int)
     assert isinstance(config.individual_swap_probability, float)
     assert isinstance(config.tournament_size, int)
-    assert isinstance(config.population, int)
+    assert isinstance(config.population, int)  # tweak 5
     assert isinstance(config.breeding_probability, float)
     assert isinstance(config.mutation_probability, float)
     assert isinstance(config.generations, int)
