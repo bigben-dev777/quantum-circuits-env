@@ -62,7 +62,7 @@ class TestEAOptimizer:
             simple_problem.input_set, simple_problem.target_set,
             simple_problem.num_qubits, simple_problem.recommended_time_steps,
             evaluation_budget=100, seed=42,
-        )
+        ) 
         assert isinstance(result, OptimizationResult)
         assert result.best_gate_array.shape == (simple_problem.recommended_time_steps, simple_problem.num_qubits)
         assert 0.0 <= result.best_fitness <= 1.0
