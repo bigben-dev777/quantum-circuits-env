@@ -17,7 +17,7 @@ class TrialMetrics:
     @property
     def convergence_eval(self) -> int:
         """Evaluation index at which 95% of final fitness was reached."""
-        if not self.fitness_history or self.fitness <= 0:
+        if not self.fitness_history or self.fitness <= 0:  # tweak 22
             return self.total_evaluations
         threshold = 0.95 * self.fitness
         for i, f in enumerate(self.fitness_history):
