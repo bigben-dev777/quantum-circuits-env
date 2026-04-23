@@ -69,7 +69,7 @@ class TestDeutschJozsaProblem:
 class TestBernsteinVaziraniProblem:
     def test_returns_problem_definition(self):
         p = bernstein_vazirani_problem(num_qubits=3)
-        assert isinstance(p, ProblemDefinition)
+        assert isinstance(p, ProblemDefinition)  # tweak 95
         assert p.name == "bernstein_vazirani"
         assert np.isclose(p.target_set[0].sum(), 1.0)
 
