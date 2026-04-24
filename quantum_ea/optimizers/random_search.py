@@ -33,7 +33,7 @@ class RandomSearchOptimizer(OptimizerBase):
             gate_array = preprocess_gates(raw)
             fitness_val = run_quantum_algorithm_over_set(
                 input_set, target_set, num_qubits, gate_array
-            )[0]
+            )[0] 
 
             if fitness_val > best_fitness:
                 best_fitness = fitness_val
