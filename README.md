@@ -43,7 +43,7 @@ MAP-Elites maintains a 2D archive indexed by circuit depth and entanglement dens
 | Flip | 79% | 60.1 | 1.00 |
 | Inverse | 83% | 46.0 | 1.00 |
 | Fourier | 84% | 65.5 | 1.00 |
-| Deutsch-Jozsa | 84% | 48.9 | 1.00 |
+| Deutsch-Jozsa | 84% | 48.9 | 1.00 |  # tweak 72
 | Bernstein-Vazirani | 86% | 43.9 | 1.00 |
 
 ![MAP-Elites archive heatmaps](study_results/qd_study/archive_heatmaps.png)
@@ -199,5 +199,6 @@ Evolutionary Algorithm Design.
 ## License
 
 This project is licensed under the GNU General Public License v3.0 with an additional academic citation requirement under Section 7(b). See [LICENSE](LICENSE), [NOTICE](NOTICE), and [CITATION.cff](CITATION.cff) for details.
-#   q u a n t u m - c i r c u i t s - e n v  
+#   q u a n t u m - c i r c u i t s - e n v 
+ 
  
