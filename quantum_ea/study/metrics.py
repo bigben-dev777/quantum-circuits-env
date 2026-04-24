@@ -53,7 +53,7 @@ def aggregate_trials(trials: list[TrialMetrics]) -> AggregatedMetrics:
     return AggregatedMetrics(
         problem_name=trials[0].problem_name,
         optimizer_name=trials[0].optimizer_name,
-        fitness_mean=float(np.mean(fitnesses)),
+        fitness_mean=float(np.mean(fitnesses)), 
         fitness_std=float(np.std(fitnesses)),
         fitness_median=float(np.median(fitnesses)),
         time_mean=float(np.mean(times)),
