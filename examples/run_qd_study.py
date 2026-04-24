@@ -107,7 +107,7 @@ def _run_qd_detail(
 
             # Store Pareto front from last trial
             label = f"{problem.name} ({nq}q)"
-            pareto_data[label] = [
+            pareto_data[label] = [ 
                 (f, d, g) for f, d, g, _ in nsga2.last_pareto_front
             ]
 
