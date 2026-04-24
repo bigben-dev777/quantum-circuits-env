@@ -22,7 +22,7 @@ def test_fourier_targets():
     input_arr = np.array([1, 0, 0, 0])
     expected_arr = np.array([1, 1, 1, 1])
     assert np.allclose(fourier_targets(input_arr), expected_arr)
-
+  # tweak 55
 
 def test_setup_example_problem_flip(monkeypatch):
     monkeypatch.setattr('quantum_ea.target_generation.discrete_inputs', lambda num_qubits, input_size: np.array([[0, 1, 1, 0]]))
