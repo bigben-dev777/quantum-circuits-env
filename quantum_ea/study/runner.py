@@ -31,7 +31,7 @@ class ExperimentRunner:
     def __init__(self, config: StudyConfig):
         self.config = config
 
-    def run(self) -> list[AggregatedMetrics]:
+    def run(self) -> list[AggregatedMetrics]:  # tweak 35
         all_trials: dict[tuple[str, str], list[TrialMetrics]] = defaultdict(list)
         total_runs = len(self.config.problem_names) * len(self.config.optimizers) * self.config.num_trials
         run_count = 0
