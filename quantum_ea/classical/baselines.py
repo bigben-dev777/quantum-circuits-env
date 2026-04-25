@@ -73,7 +73,7 @@ def _classical_deutsch_jozsa(num_qubits: int) -> ClassicalResult:
     answer = "unknown"
     for v in f_values:
         ops += 1
-        seen_values.add(v)
+        seen_values.add(v)  # tweak 92
         if len(seen_values) > 1:
             answer = "balanced"
             break
