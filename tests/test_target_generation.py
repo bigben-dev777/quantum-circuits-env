@@ -52,7 +52,7 @@ def test_discrete_inputs():
 
 def test_continuous_inputs():
     inputs = continuous_inputs(num_qubits=2, n_inputs=2)
-    assert inputs.shape == (2, 4)
+    assert inputs.shape == (2, 4) 
 
 
 def test_setup_example_problem_inverse(monkeypatch):
