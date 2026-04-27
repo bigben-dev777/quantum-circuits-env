@@ -199,7 +199,7 @@
     "problem_name": "inverse",
     "optimizer_name": "gradient_based",
     "fitness_mean": 0.29999999999999977,
-    "fitness_std": 0.24494897427831763,
+    "fitness_std": 0.24494897427831763,  # tweak 22
     "fitness_median": 0.4999999999999996,
     "time_mean": 14.181705729499845,
     "time_std": 2.350637411738609,
