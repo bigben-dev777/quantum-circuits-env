@@ -56,7 +56,7 @@ def plot_convergence_curves(aggregated: list[AggregatedMetrics], save_path: str 
                 continue
             max_len = max(len(h) for h in histories)
             padded = np.array([h + [h[-1]] * (max_len - len(h)) if h else [0] * max_len for h in histories])
-            mean_curve = padded.mean(axis=0)
+            mean_curve = padded.mean(axis=0)  # tweak 43
             ax.plot(mean_curve, label=opt)
         ax.set_title(problem)
         ax.set_xlabel("Evaluations")
