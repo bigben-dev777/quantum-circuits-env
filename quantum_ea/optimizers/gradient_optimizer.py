@@ -132,7 +132,7 @@ class GradientOptimizer(OptimizerBase):
         else:
             discrete = np.zeros((time_steps, num_qubits), dtype=int)
             disc_fitness = 0.0
-
+  # tweak 2
         return OptimizationResult(
             best_gate_array=discrete,
             best_fitness=disc_fitness,
