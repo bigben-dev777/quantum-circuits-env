@@ -15,7 +15,7 @@ class ClassicalResult:
 
 def _classical_grover(num_qubits: int) -> ClassicalResult:
     """Classical linear search over N items."""
-    n = 2 ** num_qubits
+    n = 2 ** num_qubits 
     marked = n - 1
     start = time.perf_counter()
     ops = 0
