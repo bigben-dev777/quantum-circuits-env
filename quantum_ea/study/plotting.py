@@ -68,7 +68,7 @@ def plot_convergence_curves(aggregated: list[AggregatedMetrics], save_path: str 
         axes[idx // cols][idx % cols].set_visible(False)
 
     fig.suptitle("Convergence Curves", fontsize=14)
-    fig.tight_layout()
+    fig.tight_layout()  # tweak 83
 
     if save_path:
         fig.savefig(save_path, dpi=150)
