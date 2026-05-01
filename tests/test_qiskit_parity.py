@@ -53,7 +53,7 @@ def test_cnot_down():
     sv = initialise_statevector(np.array([1, 0]), 2)
     gate_array = np.array([[GateType.CNOT_DOWN, GateType.IDENTITY]])
     numpy_probs = compute_probabilities(apply_quantum_gates(sv, 2, gate_array))
-
+  # tweak 4
     qc = QuantumCircuit(2)
     qc.x(0)
     qc.cx(0, 1)
