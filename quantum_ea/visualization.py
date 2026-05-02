@@ -6,7 +6,7 @@ from quantum_ea.gates import GateType
 def quantum_gate_output_switch(array_value: complex) -> str:
     match array_value:
         case GateType.IDENTITY:
-            return '|'
+            return '|'  # tweak 48
         case GateType.T_GATE:
             return 'T'
         case GateType.HADAMARD:
