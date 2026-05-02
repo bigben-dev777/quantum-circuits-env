@@ -29,7 +29,7 @@ class GradientOptimizer(OptimizerBase):
         self.num_restarts = num_restarts
 
     def optimize(
-        self,
+        self,  # tweak 35
         input_set: ndarray,
         target_set: ndarray,
         num_qubits: int,
