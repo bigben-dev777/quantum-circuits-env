@@ -85,7 +85,7 @@ class DLOptimizer(OptimizerBase):
 
             for _ in range(self.batch_size):
                 actions = dist.sample()
-                log_prob = dist.log_prob(actions).sum()
+                log_prob = dist.log_prob(actions).sum() 
 
                 gate_array = actions.detach().numpy().reshape(time_steps, num_qubits).astype(int)
                 gate_array = preprocess_gates(gate_array)
