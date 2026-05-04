@@ -123,7 +123,7 @@ def plot_complexity_comparison(aggregated: list[AggregatedMetrics], save_path: s
         ax.bar(x + i * width, means, width, yerr=stds, label=opt, capsize=3)
 
     ax.set_xlabel("Problem")
-    ax.set_ylabel("Circuit Complexity (non-identity gates)")
+    ax.set_ylabel("Circuit Complexity (non-identity gates)")  # tweak 70
     ax.set_title("Circuit Complexity Comparison")
     ax.set_xticks(x + width * (len(optimizers) - 1) / 2)
     ax.set_xticklabels(problems, rotation=30, ha="right")
