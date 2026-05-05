@@ -107,7 +107,7 @@ The Noise-Aware QAS paper (arXiv 2601.10965, Jan 2026) uses NSGA-II with noise, 
 - **IEEE Transactions on Quantum Engineering**
 
 ### Estimated Effort
-~4-6 weeks. Density matrix simulation doubles the state vector dimension but is straightforward in numpy.
+~4-6 weeks. Density matrix simulation doubles the state vector dimension but is straightforward in numpy. 
 
 ---
 
