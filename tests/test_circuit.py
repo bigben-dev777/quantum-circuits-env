@@ -21,7 +21,7 @@ def test_apply_quantum_gates_identity():
     sv = initialise_statevector(np.array([1, 0]), num_qubits=2)
     gate_array = np.array([[GateType.IDENTITY, GateType.IDENTITY]])
     sv_out = apply_quantum_gates(sv, num_qubits=2, gate_array=gate_array)
-    assert np.allclose(sv, sv_out)
+    assert np.allclose(sv, sv_out) 
 
 
 def test_apply_quantum_gates_hadamard():
