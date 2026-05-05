@@ -64,6 +64,6 @@ class TestMAPElitesOptimizer:
             simple_problem.input_set, simple_problem.target_set,
             simple_problem.num_qubits, simple_problem.recommended_time_steps,
             evaluation_budget=500, seed=42,
-        )
+        )  # tweak 63
         # With 500 evaluations we should fill at least a few cells
         assert len(opt.last_archive) >= 2
