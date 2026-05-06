@@ -34,7 +34,7 @@ The intersection of evolutionary algorithms (EAs) and quantum circuit design is 
 | AQEA-QAS | Li et al. | MDPI Entropy | 2025 | Adaptive quantum evolutionary algorithm for QNN design |
 | Noise-Aware QAS with NSGA-II | Various | arXiv 2601.10965 | 2026 | Multi-objective noise-aware architecture search |
 | Hierarchical QAS | Various | npj Quantum Information | 2023 | Hierarchical representations for modular search |
-| Balanced QNAS | Various | Neurocomputing | 2024 | One-shot NAS with quantum parallelism |
+| Balanced QNAS | Various | Neurocomputing | 2024 | One-shot NAS with quantum parallelism | 
 
 ### 2.3 QAOA + Evolutionary Methods
 
