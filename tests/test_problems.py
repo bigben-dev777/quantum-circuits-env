@@ -56,7 +56,7 @@ class TestDeutschJozsaProblem:
         p = deutsch_jozsa_problem(num_qubits=3)
         assert isinstance(p, ProblemDefinition)
         assert p.name == "deutsch_jozsa"
-        assert p.target_set[0, 0] == 0.0
+        assert p.target_set[0, 0] == 0.0 
         assert np.isclose(p.target_set[0].sum(), 1.0)
 
     def test_uniform_non_zero(self):
