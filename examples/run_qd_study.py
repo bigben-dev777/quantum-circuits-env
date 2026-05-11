@@ -197,7 +197,7 @@ def main():
 
     if len(qubit_counts) > 1:
         plot_scalability(scaling_data, os.path.join(output_dir, "scalability.png"))
-
+ 
     # 5. Save QD-specific data
     qd_summary = {
         "pareto_fronts": {
