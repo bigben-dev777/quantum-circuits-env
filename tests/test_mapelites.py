@@ -34,7 +34,7 @@ class TestMAPElitesOptimizer:
             evaluation_budget=50, seed=123,
         )
         opt2 = MAPElitesOptimizer(depth_bins=5, density_bins=5, initial_population=20)
-        r2 = opt2.optimize(
+        r2 = opt2.optimize( 
             simple_problem.input_set, simple_problem.target_set,
             simple_problem.num_qubits, simple_problem.recommended_time_steps,
             evaluation_budget=50, seed=123,
