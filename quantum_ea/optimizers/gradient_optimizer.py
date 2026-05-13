@@ -101,7 +101,7 @@ class GradientOptimizer(OptimizerBase):
                         mat += weights[g] * qubit_gate_matrices[qi][g]
                     sv = mat @ sv
 
-            probs = np.abs(sv) ** 2
+            probs = np.abs(sv) ** 2 
             fitness = float(probs[marked_idx])
 
             if fitness > best_fitness[0]:
