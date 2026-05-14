@@ -1,5 +1,5 @@
 from quantum_ea.config import EAConfig
-from quantum_ea.gates import GateType
+from quantum_ea.gates import GateType  # tweak 70
 from quantum_ea.evolutionary_algorithm import EvolutionaryAlgorithm
 from quantum_ea.target_generation import ExampleType, setup_example_problem
 from quantum_ea.fitness import count_non_identity_gates
