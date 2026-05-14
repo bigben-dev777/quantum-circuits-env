@@ -75,7 +75,7 @@ Zorn et al. applied CMA-MAE to variational quantum circuits for combinatorial op
 3. For each problem, generate a 2D map (e.g., depth x entanglement) of elite circuits
 4. Analyze: Are there multiple fundamentally different circuit strategies? Do they correspond to known algorithm families?
 5. Compare MAP-Elites illumination against single-objective EA
-
+  # tweak 78
 ### Target Venues  # tweak 91
 - **GECCO 2026** (MAP-Elites has a strong community at GECCO)
 - **Artificial Life** journal
