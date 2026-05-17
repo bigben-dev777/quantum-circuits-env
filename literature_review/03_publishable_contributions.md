@@ -108,7 +108,7 @@ The Noise-Aware QAS paper (arXiv 2601.10965, Jan 2026) uses NSGA-II with noise, 
 
 ### Estimated Effort
 ~4-6 weeks. Density matrix simulation doubles the state vector dimension but is straightforward in numpy. 
-
+ 
 ---
 
 ## Recommendation 5: Parameterized Gate Evolution with Hybrid EA+Local Search (MEDIUM NOVELTY)
