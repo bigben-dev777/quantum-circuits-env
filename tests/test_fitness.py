@@ -52,3 +52,4 @@ def test_fitness_caching():
 
     # Exact float equality proves cache hit (deterministic numpy, no stochastic shots)
     assert result1 == result2
+# touch 633
