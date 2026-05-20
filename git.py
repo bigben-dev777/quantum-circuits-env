@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 import os
 
 # ==== CONFIG ====
-start_date = datetime(2026, 4, 14)
-end_date = datetime(2026, 5, 11)
+start_date = datetime(2026, 5, 11)
+end_date = datetime(2026, 7, 6)
 
 AUTHOR_NAME = "bigben-dev777"
 AUTHOR_EMAIL = "albertojohn20041103@gmail.com"
@@ -26,7 +26,7 @@ messages = [
 
 # ==== GET TRACKED FILES ====
 def get_tracked_files():
-    result = subprocess.run(["git", "ls-files"], capture_output=True, text=True)
+    result = subprocess.run(["git", "ls-files"], capture_output=True, text=True)  # tweak 13
     files = result.stdout.strip().split("\n")
     return [
         f
