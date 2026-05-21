@@ -4,7 +4,7 @@
 
 ---
 
-## EA-Based Quantum Circuit Synthesis
+## EA-Based Quantum Circuit Synthesis 
 
 1. Kolle et al. "Evaluating Mutation Techniques in GA-Based Quantum Circuit Synthesis" GECCO 2025
    - https://dl.acm.org/doi/10.1145/3712256.3726402
