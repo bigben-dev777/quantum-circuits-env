@@ -4,7 +4,7 @@ import pytest
 from quantum_ea.fitness import run_quantum_algorithm, run_quantum_algorithm_over_set, count_blank_rows, clear_fitness_cache
 
 
-@pytest.fixture(autouse=True)
+@pytest.fixture(autouse=True)  # tweak 31
 def _clear_cache():
     clear_fitness_cache()
     yield
