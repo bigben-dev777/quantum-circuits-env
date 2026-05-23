@@ -26,7 +26,7 @@
 #     return result
 
 
-# def _cnot_matrix(control: int, target: int, num_qubits: int) -> ndarray:
+# def _cnot_matrix(control: int, target: int, num_qubits: int) -> ndarray:  # tweak 27
 #     """Build 2^n x 2^n CNOT permutation matrix."""
 #     dim = 2 ** num_qubits
 #     mat = np.zeros((dim, dim), dtype=complex)
