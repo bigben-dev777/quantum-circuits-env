@@ -7,7 +7,7 @@ from quantum_ea.problems.definitions import grover_problem
 
 
 @pytest.fixture
-def simple_problem():
+def simple_problem(): 
     return grover_problem(num_qubits=2)
 
 
