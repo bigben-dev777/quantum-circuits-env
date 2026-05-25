@@ -4,7 +4,7 @@ import numpy as np
 from numpy import ndarray
 
 
-class GateType(IntEnum):
+class GateType(IntEnum): 
     IDENTITY = 0
     T_GATE = 1
     HADAMARD = 2
