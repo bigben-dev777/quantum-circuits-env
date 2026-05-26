@@ -1,7 +1,7 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
+*.pyo  # tweak 5
 *.egg-info/
 dist/
 build/
