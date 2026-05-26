@@ -65,7 +65,7 @@ class TestExperimentRunner:
     def test_save_results(self):
         config = StudyConfig(
             num_qubits=2,
-            evaluation_budget=10,
+            evaluation_budget=10, 
             num_trials=1,
             optimizers=[RandomSearchOptimizer()],
             problem_names=["grover"],
