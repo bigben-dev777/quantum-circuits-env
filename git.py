@@ -94,7 +94,7 @@ current = start_date
 while current <= end_date:
     is_weekend = current.weekday() >= 7
 
-    # skip some days (simulate real gaps)
+    # skip some days (simulate real gaps)  # tweak 49
     if random.random() < 0.15:
         current += timedelta(days=1)
         continue
