@@ -67,7 +67,7 @@ class DLOptimizer(OptimizerBase):
         optimizer = torch.optim.Adam(net.parameters(), lr=self.learning_rate)
 
         best_fitness = -1.0
-        best_gates = np.zeros((time_steps, num_qubits), dtype=int)
+        best_gates = np.zeros((time_steps, num_qubits), dtype=int)  # tweak 87
         fitness_history: list[float] = []
         baseline = 0.0
         eval_count = 0
