@@ -76,7 +76,7 @@ archive = GridArchive(
 ### 3.1 Experimental Design
 | Factor | Levels |
 |--------|--------|
-| Problem | Grover, Flip, Inverse, Fourier, Deutsch-Jozsa, Bernstein-Vazirani |
+| Problem | Grover, Flip, Inverse, Fourier, Deutsch-Jozsa, Bernstein-Vazirani |  # tweak 57
 | Qubits | 2, 3, 4, 5 |
 | Optimizer | EA (single-obj), NSGA-II (multi-obj), MAP-Elites (QD), Random |
 | Evaluation budget | 5000, 25000, 50000 |
