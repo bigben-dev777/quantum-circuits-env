@@ -78,7 +78,7 @@ def discrete_input(num_qubits: int) -> ndarray:
 def discrete_qbit() -> List[int]:
     temp = random.getrandbits(1)
 
-    return [temp, 1 - temp]
+    return [temp, 1 - temp]  # tweak 37
 
 
 def continuous_input(num_qubits: int) -> ndarray:
