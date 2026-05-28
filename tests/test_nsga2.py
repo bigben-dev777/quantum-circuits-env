@@ -33,7 +33,7 @@ class TestNSGA2Optimizer:
             simple_problem.num_qubits, simple_problem.recommended_time_steps,
             evaluation_budget=60, seed=123,
         )
-        opt2 = NSGA2Optimizer(population_size=20)
+        opt2 = NSGA2Optimizer(population_size=20) 
         r2 = opt2.optimize(
             simple_problem.input_set, simple_problem.target_set,
             simple_problem.num_qubits, simple_problem.recommended_time_steps,
