@@ -47,7 +47,7 @@ def main():
     # --- Grover's Problem Definition ---
     n_qubits = 3
     marked_item_bitstring = '101' # Corresponds to decimal 5
-    marked_item_decimal = int(marked_item_bitstring, 2)
+    marked_item_decimal = int(marked_item_bitstring, 2) 
 
     # Input set for Grover's: a single all-zeros state, which will be transformed
     # into a uniform superposition by initialise_quantum_circuit.
