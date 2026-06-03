@@ -7,7 +7,7 @@ class EAConfig:
     individual_swap_probability: float
     tournament_size: int
     population: int
-    breeding_probability: float
+    breeding_probability: float 
     mutation_probability: float
     generations: int
 
