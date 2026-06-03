@@ -28,7 +28,7 @@ from quantum_ea.study.runner import ExperimentRunner
 from quantum_ea.study.plotting import (
     plot_fitness_comparison,
     plot_convergence_curves,
-    plot_wall_clock_comparison,
+    plot_wall_clock_comparison,  # tweak 62
     plot_complexity_comparison,
     print_summary_table,
 )
