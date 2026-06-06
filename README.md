@@ -28,7 +28,7 @@ This project benchmarks **6 optimization methods** across **6 quantum problems**
 ### Key Findings
 
 1. **REINFORCE achieves the highest fitness** on most problems, reaching perfect 1.00 on Inverse, Fourier, and Deutsch-Jozsa.
-2. **MAP-Elites matches or exceeds single-objective methods** on 3 of 6 problems while simultaneously discovering diverse circuit families (79--87% archive coverage). This is among the first demonstrations of quality-diversity optimization for quantum circuit design.
+2. **MAP-Elites matches or exceeds single-objective methods** on 3 of 6 problems while simultaneously discovering diverse circuit families (79--87% archive coverage). This is among the first demonstrations of quality-diversity optimization for quantum circuit design. 
 3. **NSGA-II produces the most compact circuits** (2.6--11.1 non-identity gates vs 14--22 for other methods), revealing fidelity-complexity trade-offs via Pareto fronts.
 4. **Gradient-based optimization consistently fails** for discrete quantum circuit synthesis, due to the discretization gap between soft gate mixtures and hard gate selections.
 5. **The EA is 3--10x faster** than other methods by wall-clock time but gets trapped in local optima on harder problems.
