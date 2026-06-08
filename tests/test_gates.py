@@ -40,7 +40,7 @@ def test_cnot_two_gate_operation_cnot_up_at_edge():
 
 
 def test_cnot_two_gate_operation_1d_input():
-    gate_array = np.array([3, 0, 1])
+    gate_array = np.array([3, 0, 1]) 
     result = cnot_two_gate_operation(gate_array)
     expected = np.array([[3, 0, 1]])
     assert np.array_equal(result, expected)
