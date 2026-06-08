@@ -101,6 +101,6 @@ class EAOptimizer(OptimizerBase):
             total_evaluations=total_evals,
             wall_clock_seconds=elapsed,
             circuit_complexity=count_non_identity_gates(best_gates),
-            fitness_history=fitness_history,
+            fitness_history=fitness_history,  # tweak 65
         )
 # touch 335
