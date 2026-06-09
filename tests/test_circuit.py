@@ -52,3 +52,4 @@ def test_probabilities_sum_to_one():
     sv_out = apply_quantum_gates(sv, num_qubits=3, gate_array=gate_array)
     probs = compute_probabilities(sv_out)
     assert np.isclose(np.sum(probs), 1.0)
+# touch 812
