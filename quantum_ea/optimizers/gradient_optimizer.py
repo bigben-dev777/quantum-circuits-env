@@ -139,5 +139,5 @@ class GradientOptimizer(OptimizerBase):
             total_evaluations=eval_count[0],
             wall_clock_seconds=elapsed,
             circuit_complexity=count_non_identity_gates(discrete),
-            fitness_history=fitness_history,
+            fitness_history=fitness_history, 
         )
