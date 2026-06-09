@@ -86,4 +86,4 @@
 | Grammatical Evolution for QCS | 1 (tangential) | MEDIUM-HIGH |
 | Evolutionary Quantum Error Mitigation | 1 (tangential) | MEDIUM |
 # touch 93
-# touch 980
+# touch 980  # tweak 40
