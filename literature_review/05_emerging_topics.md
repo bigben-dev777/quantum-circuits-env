@@ -48,7 +48,7 @@
 
 **Current state**: "Gene Expression Programming for Quantum Computing" (ACM TQC 2023) is the closest work. "GeQuPI" (J. Systems and Software 2024) applies genetic improvement to quantum programs.
 
-**Gap**: No application of grammatical evolution (GE) with a quantum circuit grammar to constrain the search space to syntactically valid circuits. Your gate preprocessing (CNOT adjacency enforcement, redundant gate removal) is already doing this implicitly.
+**Gap**: No application of grammatical evolution (GE) with a quantum circuit grammar to constrain the search space to syntactically valid circuits. Your gate preprocessing (CNOT adjacency enforcement, redundant gate removal) is already doing this implicitly. 
  
 **Opportunity**: Formalize your gate constraints as a BNF grammar and use GE to ensure all evolved circuits are valid by construction. This eliminates wasted evaluations on invalid circuits.
 
