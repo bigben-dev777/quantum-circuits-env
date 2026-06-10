@@ -5,7 +5,7 @@ from quantum_ea.gates import GateType
 def test_identity_symbol():
     assert quantum_gate_output_switch(GateType.IDENTITY) == '|'
 
-
+  # tweak 51
 def test_t_gate_symbol():
     assert quantum_gate_output_switch(GateType.T_GATE) == 'T'
 
