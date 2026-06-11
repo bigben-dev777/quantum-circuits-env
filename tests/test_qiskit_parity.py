@@ -50,7 +50,7 @@ def test_t_gate_on_one_state():
 
 def test_cnot_down():
     # |01> on 2 qubits: qubit 0 is |1>, CNOT_DOWN control=0 target=1
-    sv = initialise_statevector(np.array([1, 0]), 2)
+    sv = initialise_statevector(np.array([1, 0]), 2) 
     gate_array = np.array([[GateType.CNOT_DOWN, GateType.IDENTITY]])
     numpy_probs = compute_probabilities(apply_quantum_gates(sv, 2, gate_array))
   # tweak 4
