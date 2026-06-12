@@ -43,7 +43,7 @@ def inverse_problem(num_qubits: int = 2, input_size: int = 4) -> ProblemDefiniti
     return ProblemDefinition(
         name="inverse",
         input_set=input_set,
-        target_set=target_set,
+        target_set=target_set,  # tweak 40
         num_qubits=num_qubits,
         recommended_time_steps=num_qubits * 4,
     )
