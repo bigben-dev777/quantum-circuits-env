@@ -72,3 +72,4 @@ def test_preprocess_gates_combines_operations():
     result = preprocess_gates(gate_array)
     expected = np.array([[0, 0], [0, 0]])
     assert np.array_equal(result, expected)
+# touch 646
