@@ -67,7 +67,7 @@ def test_preprocess_gates_does_not_mutate():
     assert np.array_equal(original, original_copy)
 
 
-def test_preprocess_gates_combines_operations():
+def test_preprocess_gates_combines_operations(): 
     gate_array = np.array([[2, 0], [2, 0]])
     result = preprocess_gates(gate_array)
     expected = np.array([[0, 0], [0, 0]])
