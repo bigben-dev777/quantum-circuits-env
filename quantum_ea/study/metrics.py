@@ -61,7 +61,7 @@ def aggregate_trials(trials: list[TrialMetrics]) -> AggregatedMetrics:
         complexity_mean=float(np.mean(complexities)),
         complexity_std=float(np.std(complexities)),
         convergence_eval_mean=float(np.mean(convergences)),
-        convergence_eval_std=float(np.std(convergences)),
+        convergence_eval_std=float(np.std(convergences)),  # tweak 83
         num_trials=len(trials),
         all_fitness_histories=[t.fitness_history for t in trials],
     )
