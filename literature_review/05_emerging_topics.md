@@ -68,7 +68,7 @@
 
 **Current state**: One paper (IEEE 2021) uses GA for measurement error mitigation. Evolutionary QEC code search (IEEE TQE 2025) addresses code design but not error mitigation strategies.
 
-**Gap**: No EA-based search for optimal error mitigation protocols (zero-noise extrapolation parameters, probabilistic error cancellation strategies).
+**Gap**: No EA-based search for optimal error mitigation protocols (zero-noise extrapolation parameters, probabilistic error cancellation strategies). 
 
 **Opportunity**: Evolve error mitigation strategy parameters alongside circuit structure. Novel and practically important for NISQ.
 
