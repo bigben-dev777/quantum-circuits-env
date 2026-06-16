@@ -87,7 +87,7 @@ The intersection of evolutionary algorithms (EAs) and quantum circuit design is 
 ---
 
 ## 3. Standard Benchmarks in the Field
-
+ 
 | Benchmark | Description | Typical Use |
 |-----------|-------------|-------------|
 | QFT | Quantum Fourier Transform | Circuit synthesis/compilation |
