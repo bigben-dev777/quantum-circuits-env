@@ -4,7 +4,7 @@ from quantum_ea.problems.definitions import (
     flip_problem,
     inverse_problem,
     fourier_problem,
-    deutsch_jozsa_problem,
+    deutsch_jozsa_problem, 
     bernstein_vazirani_problem,
     all_problems,
 )
