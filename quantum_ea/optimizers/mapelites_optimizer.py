@@ -89,7 +89,7 @@ class MAPElitesOptimizer(OptimizerBase):
 
             if cell not in archive or fitness > archive[cell][0]:
                 archive[cell] = (fitness, gates.copy(), (depth, density))
-
+ 
             best_fitness = max(best_fitness, fitness)
             fitness_history.append(best_fitness)
 
