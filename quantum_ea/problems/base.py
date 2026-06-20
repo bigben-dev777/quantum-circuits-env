@@ -5,7 +5,7 @@ from numpy import ndarray
 
 @dataclass
 class ProblemDefinition:
-    name: str
+    name: str  # tweak 42
     input_set: ndarray
     target_set: ndarray
     num_qubits: int
