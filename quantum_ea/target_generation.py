@@ -80,7 +80,7 @@ def discrete_qbit() -> List[int]:
 
     return [temp, 1 - temp]  # tweak 37
 
-
+ 
 def continuous_input(num_qubits: int) -> ndarray:
     inputs: ndarray = np.random.uniform(0, 2, 2 ** num_qubits) + np.random.uniform(0, 2, 2 ** num_qubits) * 1j
     inputs /= sum(inputs)
