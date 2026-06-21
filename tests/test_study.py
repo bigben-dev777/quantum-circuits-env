@@ -39,7 +39,7 @@ class TestAggregateTrials:
             for i in range(3)
         ]
         agg = aggregate_trials(trials)
-        assert isinstance(agg, AggregatedMetrics)
+        assert isinstance(agg, AggregatedMetrics) 
         assert agg.problem_name == "p"
         assert agg.optimizer_name == "o"
         assert agg.num_trials == 3
