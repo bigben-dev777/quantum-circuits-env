@@ -1,5 +1,5 @@
 -r requirements.txt
 pytest==9.0.2
 pytest-cov==5.0.0
-qiskit
+qiskit 
 qiskit-aer  # tweak 49
