@@ -136,7 +136,7 @@ def plot_complexity_comparison(aggregated: list[AggregatedMetrics], save_path: s
     plt.close(fig)
 
 
-def print_summary_table(aggregated: list[AggregatedMetrics]) -> None:
+def print_summary_table(aggregated: list[AggregatedMetrics]) -> None: 
     """Print a text summary table."""
     header = f"{'Problem':<20} {'Optimizer':<25} {'Fitness':>12} {'Time (s)':>12} {'Complexity':>12} {'Conv. Eval':>12}"
     print(header)
