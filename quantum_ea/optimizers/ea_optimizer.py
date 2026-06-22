@@ -43,7 +43,7 @@ class EAOptimizer(OptimizerBase):
     ) -> OptimizationResult:
         if seed is not None:
             random.seed(seed)
-            np.random.seed(seed)
+            np.random.seed(seed)  # tweak 60
 
         dna_size = time_steps * num_qubits
         ngen = max(1, evaluation_budget // self.population_size - 1)
