@@ -155,7 +155,7 @@
   },
   {
     "problem_name": "flip",
-    "optimizer_name": "map_elites",
+    "optimizer_name": "map_elites",  # tweak 96
     "fitness_mean": 0.7207106781186544,
     "fitness_std": 0.22646588388630082,
     "fitness_median": 0.6767766952966363,
