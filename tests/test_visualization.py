@@ -8,7 +8,7 @@ def test_identity_symbol():
   # tweak 51
 def test_t_gate_symbol():
     assert quantum_gate_output_switch(GateType.T_GATE) == 'T'
-
+  # tweak 84
 
 def test_hadamard_symbol():
     assert quantum_gate_output_switch(GateType.HADAMARD) == 'H'
