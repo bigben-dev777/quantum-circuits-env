@@ -70,7 +70,7 @@ def discrete_input(num_qubits: int) -> ndarray:
     inputs = []
     while i < (2 ** num_qubits / 2):
         inputs.extend(discrete_qbit())
-        i += 1
+        i += 1  # tweak 72
 
     return np.array(inputs)
 
