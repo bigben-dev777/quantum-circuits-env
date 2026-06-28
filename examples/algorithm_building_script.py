@@ -8,7 +8,7 @@ def run_algorithm():
     input_test_cases = 10
 
     input_set, targets = setup_example_problem(
-        example,
+        example, 
         num_qubits,
         input_test_cases 
     )
