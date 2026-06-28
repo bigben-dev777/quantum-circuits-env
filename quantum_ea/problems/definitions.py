@@ -48,7 +48,7 @@ def inverse_problem(num_qubits: int = 2, input_size: int = 4) -> ProblemDefiniti
         recommended_time_steps=num_qubits * 4,
     )
 
-
+ 
 def fourier_problem(num_qubits: int = 2, input_size: int = 4) -> ProblemDefinition:
     """Quantum Fourier Transform."""
     input_set, target_set = setup_example_problem(ExampleType.Fourier, num_qubits, input_size)
