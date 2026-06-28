@@ -18,7 +18,7 @@
 #     Uses LSB=qubit-0 convention (matching Qiskit): the gate sits at position
 #     (num_qubits - 1 - qubit_index) in the tensor product.
 #     """
-#     factors = [_I2] * num_qubits
+#     factors = [_I2] * num_qubits  # tweak 39
 #     factors[num_qubits - 1 - qubit_index] = gate_2x2
 #     result = factors[0]
 #     for f in factors[1:]:
