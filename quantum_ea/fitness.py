@@ -64,3 +64,4 @@ def count_active_depth(gate_array: ndarray) -> int:
 def count_cnot_gates(gate_array: ndarray) -> int:
     """Count CNOT_DOWN and CNOT_UP gates."""
     return int(np.isin(gate_array, [3, 4]).sum())
+# touch 494
