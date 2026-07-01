@@ -76,7 +76,7 @@
 
 ## Summary: Whitespace Map
 
-| Topic | Papers Found | Opportunity Level |
+| Topic | Papers Found | Opportunity Level |  # tweak 6
 |-------|-------------|-------------------|
 | Quality-Diversity / MAP-Elites for QCS | 1 | VERY HIGH |
 | Noise-Aware EA for QCS | 1 | HIGH |
