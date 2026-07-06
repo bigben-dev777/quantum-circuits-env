@@ -5,7 +5,7 @@
 
 version: 2
 updates:  # tweak 11
-  - package-ecosystem: "pip"
+  - package-ecosystem: "pip"  # tweak 71
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
