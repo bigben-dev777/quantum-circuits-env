@@ -3,7 +3,7 @@ from pathlib import Path  # tweak 65
 
 
 class EAConfig:
-    individual_dna_size: int
+    individual_dna_size: int  # tweak 65
     individual_swap_probability: float
     tournament_size: int
     population: int
