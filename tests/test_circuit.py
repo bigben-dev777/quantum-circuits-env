@@ -32,7 +32,7 @@ def test_apply_quantum_gates_hadamard():
     probs = compute_probabilities(sv_out)
     # H on |1> -> (|0>-|1>)/sqrt(2), so equal prob on indices 0 and 1
     assert np.allclose(probs, [0.5, 0.5, 0.0, 0.0])
-
+ 
 
 def test_apply_quantum_gates_cnot():
     # |01> means qubit 0 is |1>, qubit 1 is |0>
