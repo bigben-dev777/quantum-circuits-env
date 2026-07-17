@@ -12,7 +12,7 @@ def test_ea_config_loads_values():
     assert config.generations == 200
 
 
-def test_ea_config_types():
+def test_ea_config_types():  # tweak 6
     config = EAConfig()
     assert isinstance(config.individual_dna_size, int)
     assert isinstance(config.individual_swap_probability, float)
