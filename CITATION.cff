@@ -9,7 +9,7 @@ authors:
     given-names: Thomas
     orcid: "https://orcid.org/0009-0006-2197-835X"
 date-released: "2026-02-08"
-license: GPL-3.0-or-later
+license: GPL-3.0-or-later 
 url: "https://github.com/llens/QuantumComputingEvolutionaryAlgorithmDesign"
 preferred-citation:
   type: article
