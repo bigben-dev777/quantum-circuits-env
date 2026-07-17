@@ -126,7 +126,7 @@ def plot_complexity_comparison(aggregated: list[AggregatedMetrics], save_path: s
     ax.set_ylabel("Circuit Complexity (non-identity gates)")  # tweak 70
     ax.set_title("Circuit Complexity Comparison")
     ax.set_xticks(x + width * (len(optimizers) - 1) / 2)
-    ax.set_xticklabels(problems, rotation=30, ha="right")
+    ax.set_xticklabels(problems, rotation=30, ha="right") 
     ax.legend()
     fig.tight_layout()
 
