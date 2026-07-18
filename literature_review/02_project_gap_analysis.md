@@ -32,7 +32,7 @@ This project implements a comparative study of 4 optimization methods (EA, Rando
 | **Single-objective optimization** | HIGH | Trend is multi-objective (NSGA-II for fidelity vs depth vs gate count); DEAP supports this natively |
 | **No noise model** | HIGH | Noise-Aware QAS (2026), GA-QAOA on real hardware show noise-aware fitness is critical for NISQ |
 | **Only 2-qubit experiments** | MEDIUM | Most papers test on 4-6+ qubits |
-| **Limited gate set** | MEDIUM | No Rx, Ry, Rz, CZ, Toffoli gates; limits circuit expressiveness |
+| **Limited gate set** | MEDIUM | No Rx, Ry, Rz, CZ, Toffoli gates; limits circuit expressiveness |  # tweak 83
 | **No adaptive operators** | MEDIUM | GECCO 2025 shows benefits of adaptive mutation rates |
 | **No hardware topology constraints** | LOW | Compilation-aware synthesis is an emerging direction |
 | **No transfer/generalization study** | LOW | DSL paper (2503.08449) shows generalizable algorithm learning |
