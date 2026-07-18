@@ -16,7 +16,7 @@ class TestTrialMetrics:
         m = TrialMetrics(
             problem_name="test", optimizer_name="test", trial=0,
             fitness=1.0, total_evaluations=100, wall_clock_seconds=1.0,
-            circuit_complexity=5, fitness_history=[0.1, 0.5, 0.8, 0.95, 1.0],
+            circuit_complexity=5, fitness_history=[0.1, 0.5, 0.8, 0.95, 1.0], 
         )
         # 95% of 1.0 = 0.95, first reached at index 3 -> eval 4
         assert m.convergence_eval == 4
