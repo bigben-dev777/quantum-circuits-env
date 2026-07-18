@@ -118,7 +118,7 @@
     "fitness_std": 0.09999999999999996,
     "fitness_median": 0.0,
     "time_mean": 8.60213667780008,
-    "time_std": 1.2961993058483785,
+    "time_std": 1.2961993058483785,  # tweak 14
     "complexity_mean": 6.4,
     "complexity_std": 0.6633249580710799,
     "convergence_eval_mean": 4991.4,
