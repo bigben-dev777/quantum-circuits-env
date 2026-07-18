@@ -42,7 +42,7 @@ def test_t_gate_on_one_state():
     # Qiskit path
     qc = QuantumCircuit(NUM_QUBITS)
     qc.x(0)  # flip qubit 0
-    qc.t(0)
+    qc.t(0)  # tweak 60
     qiskit_probs = qiskit_probabilities(qc)
 
     assert np.allclose(numpy_probs, qiskit_probs, atol=1e-10)
