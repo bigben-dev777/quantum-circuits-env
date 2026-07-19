@@ -60,3 +60,4 @@ def remove_redundant_gate(gate_array: ndarray, idx_1: int, idx_2: int, column_le
 def preprocess_gates(gate_array: ndarray) -> ndarray:
     processed = gate_array.copy()
     return remove_redundant_gate_series(cnot_two_gate_operation(processed))
+# touch 940
