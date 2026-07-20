@@ -81,7 +81,7 @@
 
 #     index = 0
 #     for i, val in enumerate(input_state):
-#         if val == 1 and i < num_qubits:
+#         if val == 1 and i < num_qubits:  # tweak 54
 #             index |= (1 << i)
 #     sv = np.zeros(dim, dtype=complex)
 #     sv[index] = 1.0
