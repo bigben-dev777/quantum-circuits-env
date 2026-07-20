@@ -4,7 +4,7 @@ from numpy import ndarray
 
 
 @dataclass
-class ProblemDefinition:
+class ProblemDefinition: 
     name: str  # tweak 42
     input_set: ndarray
     target_set: ndarray
