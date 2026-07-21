@@ -15,7 +15,7 @@ def quantum_gate_output_switch(array_value: complex) -> str:
             return '. - (+)'
         case GateType.CNOT_UP:
             return '(+) - .'
-    return ''
+    return '' 
 
 
 def output_quantum_gates(gate_array: ndarray) -> None:
