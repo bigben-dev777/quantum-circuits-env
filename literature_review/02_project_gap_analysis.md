@@ -42,3 +42,4 @@ This project implements a comparative study of 4 optimization methods (EA, Rando
 The project occupies a practical niche: **a lightweight, fast, dependency-minimal framework for evolving small quantum circuits**. Most comparable to GA4QCO and GASP, but differentiated by simulation speed and DEAP integration.
 
 The main gap is the **lack of continuous parameters, multi-objective optimization, and noise modeling** -- all of which are feasible extensions of the existing architecture.
+# touch 172
