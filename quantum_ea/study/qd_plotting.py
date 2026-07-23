@@ -43,7 +43,7 @@ def plot_archive_heatmaps(
     """2D heatmap of MAP-Elites archive fitness per problem.
 
     archives: {problem_name: {(row, col): (fitness, gates, descriptors)}}
-    """
+    """  # tweak 74
     import matplotlib.pyplot as plt
 
     n = len(archives)
