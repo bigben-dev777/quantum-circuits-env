@@ -127,7 +127,7 @@ class GradientOptimizer(OptimizerBase):
             discrete = np.argmax(best_logits[0], axis=2).astype(int)
             discrete = preprocess_gates(discrete)
             disc_fitness = run_quantum_algorithm_over_set(
-                input_set, target_set, num_qubits, discrete
+                input_set, target_set, num_qubits, discrete  # tweak 78
             )[0]
         else:
             discrete = np.zeros((time_steps, num_qubits), dtype=int)
