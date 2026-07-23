@@ -13,7 +13,7 @@ from quantum_ea.problems.definitions import (
     fourier_problem,
     deutsch_jozsa_problem,
     bernstein_vazirani_problem,
-)
+) 
 from quantum_ea.study.config import StudyConfig
 from quantum_ea.study.metrics import TrialMetrics, AggregatedMetrics, aggregate_trials
 
