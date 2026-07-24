@@ -54,7 +54,7 @@ def remove_redundant_gate(gate_array: ndarray, idx_1: int, idx_2: int, column_le
             and idx_1 < (column_length - 1)
             and gate_array[idx_1][idx_2] == gate_array[idx_1 + 1][idx_2]):
         gate_array[idx_1][idx_2] = GateType.IDENTITY
-        gate_array[idx_1 + 1][idx_2] = GateType.IDENTITY
+        gate_array[idx_1 + 1][idx_2] = GateType.IDENTITY  # tweak 48
 
 
 def preprocess_gates(gate_array: ndarray) -> ndarray:
