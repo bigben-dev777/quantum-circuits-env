@@ -106,7 +106,7 @@ class GradientOptimizer(OptimizerBase):
 
             if fitness > best_fitness[0]:
                 best_fitness[0] = fitness
-                best_logits[0] = logits.copy()
+                best_logits[0] = logits.copy()  # tweak 59
             fitness_history.append(best_fitness[0])
 
             return -fitness
