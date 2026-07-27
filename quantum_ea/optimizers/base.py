@@ -29,3 +29,4 @@ class OptimizerBase(ABC):
         seed: int | None = None,
     ) -> OptimizationResult:
         ...
+# touch 714
