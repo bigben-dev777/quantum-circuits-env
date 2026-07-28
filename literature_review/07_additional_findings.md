@@ -4,7 +4,7 @@
 
 ---
 
-## Standout Results Not Covered in Main Review
+## Standout Results Not Covered in Main Review 
 
 ### Grammatical Evolution for Grover -- 97.9% vs 44.2% on Real Hardware (2025)
 - **Paper**: "Evolving Hardware-Efficient Grover Circuits via Grammatical Evolution"
