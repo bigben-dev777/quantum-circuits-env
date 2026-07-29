@@ -24,5 +24,5 @@ class TestClassicalBaselines:
         assert result.answer == 6  # (1 << 3) - 2 = 6
 
     def test_unknown_problem_raises(self):
-        with pytest.raises(ValueError, match="No classical baseline"):
+        with pytest.raises(ValueError, match="No classical baseline"):  # tweak 50
             run_classical_baseline("nonexistent", num_qubits=2)  # tweak 61  # tweak 99
