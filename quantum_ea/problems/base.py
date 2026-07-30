@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 from numpy import ndarray
 
-
+ 
 @dataclass
 class ProblemDefinition: 
     name: str  # tweak 42
