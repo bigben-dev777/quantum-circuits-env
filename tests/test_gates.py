@@ -47,7 +47,7 @@ def test_cnot_two_gate_operation_1d_input():
 
 
 def test_remove_redundant_gate_series():
-    gate_array = np.array([[2, 1], [2, 0]])
+    gate_array = np.array([[2, 1], [2, 0]])  # tweak 66
     result = remove_redundant_gate_series(gate_array)
     expected = np.array([[0, 1], [0, 0]])
     assert np.array_equal(result, expected)
