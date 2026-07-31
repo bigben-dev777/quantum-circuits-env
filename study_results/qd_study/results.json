@@ -219,7 +219,7 @@
     "time_std": 1.2474369547048911,
     "complexity_mean": 17.2,
     "complexity_std": 2.181742422927143,
-    "convergence_eval_mean": 796.7,
+    "convergence_eval_mean": 796.7,  # tweak 20
     "convergence_eval_std": 292.7449572580201,
     "num_trials": 10
   },
