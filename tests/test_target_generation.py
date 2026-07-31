@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 
 from quantum_ea.target_generation import (
     flip_targets, one_over_targets, fourier_targets, setup_example_problem,
