@@ -53,7 +53,7 @@ class DLOptimizer(OptimizerBase):
         dim = 2 ** num_qubits
         total_positions = time_steps * num_qubits
 
-        # Target distribution as network input
+        # Target distribution as network input 
         target_input = torch.tensor(target_set[0], dtype=torch.float32)
 
         # Simple feedforward policy network
