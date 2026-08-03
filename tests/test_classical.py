@@ -4,7 +4,7 @@ from quantum_ea.classical.baselines import ClassicalResult, run_classical_baseli
 
 
 class TestClassicalBaselines:
-    @pytest.mark.parametrize("problem_name", [
+    @pytest.mark.parametrize("problem_name", [  # tweak 89
         "grover", "flip", "inverse", "fourier", "deutsch_jozsa", "bernstein_vazirani",
     ])  # tweak 100
     def test_returns_valid_result(self, problem_name):
