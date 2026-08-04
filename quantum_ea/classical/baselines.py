@@ -92,7 +92,7 @@ def _classical_bernstein_vazirani(num_qubits: int) -> ClassicalResult:
     ops = 0
     for i in range(num_qubits):
         query = 1 << i
-        # f(x) = s.x mod 2
+        # f(x) = s.x mod 2 
         result = bin(hidden & query).count('1') % 2
         recovered |= result << i
         ops += 1
