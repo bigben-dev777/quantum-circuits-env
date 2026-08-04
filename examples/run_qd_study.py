@@ -176,7 +176,7 @@ def main():
         base_seed=config.base_seed,
     )
 
-    # Add scaling data from the comparative study results
+    # Add scaling data from the comparative study results 
     # Group results by optimizer across qubit counts if we ran scaling
     if len(qubit_counts) > 1:
         scaling_runner = ExperimentRunner(config)
