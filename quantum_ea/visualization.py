@@ -25,3 +25,4 @@ def output_quantum_gates(gate_array: ndarray) -> None:
             output_string += '     ' + quantum_gate_output_switch(gate_val)
         print(output_string)
 # touch 271
+# touch 494
