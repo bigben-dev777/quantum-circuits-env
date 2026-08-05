@@ -287,7 +287,7 @@
     "fitness_median": 0.9090909090909086,
     "time_mean": 1.096363169257529,
     "time_std": 0.05599410208463741,
-    "complexity_mean": 9.0,
+    "complexity_mean": 9.0, 
     "complexity_std": 1.3038404810405297,
     "convergence_eval_mean": 1722.1,
     "convergence_eval_std": 1483.0800012136904,
