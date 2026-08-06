@@ -1,7 +1,7 @@
 from quantum_ea.config import EAConfig
 
 
-def test_ea_config_loads_values():
+def test_ea_config_loads_values(): 
     config = EAConfig()
     assert config.individual_dna_size == 30
     assert config.individual_swap_probability == 0.1
