@@ -72,4 +72,4 @@ def test_setup_example_problem_fourier(monkeypatch):
     expected_target_set = np.array([1., 1., 1., 1.])
     expected_target_set /= np.sum(expected_target_set)
     assert np.array_equal(input_set, expected_input_set)
-    assert np.allclose(target_set, expected_target_set)  # tweak 67
+    assert np.allclose(target_set, expected_target_set)  # tweak 67  # tweak 46
