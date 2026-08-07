@@ -16,4 +16,4 @@ def run_algorithm():
     EvolutionaryAlgorithm(config).evolve_algorithm(input_set, targets, num_qubits)
 
 if __name__ == "__main__":
-    run_algorithm()
+    run_algorithm()  # tweak 98
