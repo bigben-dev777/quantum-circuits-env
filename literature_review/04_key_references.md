@@ -59,7 +59,7 @@
 15. "Particle Swarm Optimization for VQE (GAQPSO)" Phys. Chem. Chem. Phys. 2024
     - https://pubs.rsc.org/en/content/articlelanding/2024/cp/d4cp02021a
 
-16. "Surrogate Optimization of Variational Quantum Circuits" PNAS 2025
+16. "Surrogate Optimization of Variational Quantum Circuits" PNAS 2025 
     - https://www.pnas.org/doi/10.1073/pnas.2408530122
 
 ## Multi-Objective Quantum Optimization
