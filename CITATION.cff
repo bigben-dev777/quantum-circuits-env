@@ -12,7 +12,7 @@ date-released: "2026-02-08"
 license: GPL-3.0-or-later 
 url: "https://github.com/llens/QuantumComputingEvolutionaryAlgorithmDesign"
 preferred-citation:
-  type: article
+  type: article 
   title: "Multi-Objective and Quality-Diversity Optimization of Quantum Circuits via Statevector Simulation"
   authors:
     - family-names: Snell
