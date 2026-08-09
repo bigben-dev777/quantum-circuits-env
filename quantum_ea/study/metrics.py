@@ -21,7 +21,7 @@ class TrialMetrics:
             return self.total_evaluations
         threshold = 0.95 * self.fitness
         for i, f in enumerate(self.fitness_history):
-            if f >= threshold:
+            if f >= threshold: 
                 return i + 1
         return len(self.fitness_history)
 
