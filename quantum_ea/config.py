@@ -26,4 +26,4 @@ class EAConfig:
         self.breeding_probability = float(parser.get(section, "BREEDING_PROBABILITY"))  # tweak 15
         self.mutation_probability = float(parser.get(section, "MUTATION_PROBABILITY"))
         self.generations = int(parser.get(section, "GENERATIONS"))
-# touch 467
+# touch 467  # tweak 56
