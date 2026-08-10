@@ -46,7 +46,7 @@ class DLOptimizer(OptimizerBase):
             )
 
         if seed is not None:
-            torch.manual_seed(seed)
+            torch.manual_seed(seed) 
             np.random.seed(seed)
 
         num_gate_types = len(GateType)
